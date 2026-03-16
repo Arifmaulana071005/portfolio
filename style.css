@@ -1,46 +1,42 @@
 body{
-font-family: Arial, sans-serif;
+font-family:Arial;
 margin:0;
 background:#0f172a;
 color:white;
+text-align:center;
 }
 
 header{
-text-align:center;
-padding:40px;
-background:#1e293b;
-}
-
-nav{
-text-align:center;
-padding:15px;
-background:#020617;
-}
-
-nav a{
-color:white;
-margin:0 15px;
-text-decoration:none;
-font-weight:bold;
+padding:60px;
+background:linear-gradient(135deg,#3b82f6,#9333ea);
 }
 
 section{
 padding:40px;
-max-width:900px;
-margin:auto;
 }
 
-.card{
+.skill-list span{
 background:#1e293b;
-padding:20px;
-margin:15px 0;
-border-radius:10px;
+padding:10px 20px;
+margin:5px;
+display:inline-block;
+border-radius:20px;
 }
 
-button{
-display:block;
-margin:30px auto;
-padding:10px 20px;
-font-size:16px;
-cursor:pointer;
+.project-card{
+background:#1e293b;
+margin:20px auto;
+padding:20px;
+width:250px;
+border-radius:10px;
+transition:transform 0.3s;
+}
+
+.project-card:hover{
+transform:translateY(-10px);
+}
+
+footer{
+padding:20px;
+background:#020617;
 }
