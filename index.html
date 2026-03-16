@@ -1,31 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Portfolio Arif Maulana</title>
+<meta charset="UTF-8">
+<title>Arif Maulana Portfolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h1>Halo, Saya Arif Maulana</h1>
+<header>
+<h1>Arif Maulana</h1>
+<p>Web Developer Beginner</p>
+</header>
 
-<p>Saya mahasiswa yang sedang belajar Web Development.</p>
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
 
-<h2>Skill</h2>
+<section id="about">
+<h2>About Me</h2>
+<p>Saya mahasiswa yang sedang belajar Web Development dan Programming.</p>
+</section>
+
+<section id="skills">
+<h2>Skills</h2>
 <ul>
 <li>HTML</li>
 <li>CSS</li>
+<li>JavaScript</li>
 <li>Git</li>
 <li>GitHub</li>
 </ul>
+</section>
 
-<h2>Project</h2>
-<ul>
-<li>Website Portfolio</li>
-<li>Sistem Kasir Cafe</li>
-</ul>
+<section id="projects">
+<h2>Projects</h2>
+<div class="card">
+<h3>Sistem Kasir Cafe</h3>
+<p>Project sistem kasir sederhana untuk cafe.</p>
+</div>
 
+<div class="card">
+<h3>Website Portfolio</h3>
+<p>Website portfolio pribadi menggunakan HTML dan CSS.</p>
+</div>
+</section>
+
+<section id="contact">
 <h2>Contact</h2>
 <p>Email: arifmaulana071005@gmail.com</p>
+</section>
+
+<button onclick="welcome()">Klik Saya</button>
+
+<script src="script.js"></script>
 
 </body>
 </html>
